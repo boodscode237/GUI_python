@@ -1,17 +1,17 @@
 import pyautogui
 
-# resolution = pyautogui.size()
-# # print(resolution)
+resolution = pyautogui.size()
+print(resolution)
 
-# width, height = pyautogui.size()
-# position = pyautogui.position()
-# # pyautogui.moveTo(10,10, duration=2.5)
-# # pyautogui.moveRel(200,0, duration=2)
-# print(position)
-# # pyautogui.click(435,75)
-# pyautogui.doubleClick(435,75)
+width, height = pyautogui.size()
+position = pyautogui.position()
+pyautogui.moveTo(10,10, duration=2.5)
+pyautogui.moveRel(200,0, duration=2)
+print(position)
+pyautogui.click(435,75)
+pyautogui.doubleClick(435,75)
 
-# Draw a squarre spirowshape
+Draw a squarre spirowshape
 pyautogui.click()    # Click to make the window active.
 distance = 300
 change = 20
